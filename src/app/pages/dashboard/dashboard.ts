@@ -8,5 +8,10 @@ import { Component } from '@angular/core';
   styleUrl: './dashboard.css',
 })
 export class Dashboard {
+  dropdownOpen = false;
+
+  toggleDropdown3() {
+    this.dropdownOpen = !this.dropdownOpen;
+  }
 }
 
