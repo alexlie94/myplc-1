@@ -6,5 +6,9 @@
 @theme {
   --color-base: #18527F;
   --color-surface : #F1F5F9;
+  --color-osurface : #F8F9FB;
   --color-tbase:#454747;
+  --color-sty-red:#F66160;
+  --color-sty-blue:#3B74DE;
+  --color-sty-orange:#FCA160;
 }
