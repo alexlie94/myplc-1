@@ -7,5 +7,4 @@ import { Component } from '@angular/core';
   styleUrl: './signin.css'
 })
 export class Signin {
-
 }
