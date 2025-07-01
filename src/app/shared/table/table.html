@@ -1,112 +1,83 @@
-
-
-<div class="relative overflow-x-auto shadow-md sm:rounded-lg">
-  <table class="w-full text-sm text-left rtl:text-right text-blue-100 dark:text-blue-100">
-      <thead class="text-xs text-white uppercase bg-blue-600 dark:text-white">
-          <tr>
-              <th scope="col" class="px-6 py-3">
-                  Product name
-              </th>
-              <th scope="col" class="px-6 py-3">
-                  Color
-              </th>
-              <th scope="col" class="px-6 py-3">
-                  Category
-              </th>
-              <th scope="col" class="px-6 py-3">
-                  Price
-              </th>
-              <th scope="col" class="px-6 py-3">
-                  Action
-              </th>
-          </tr>
-      </thead>
-      <tbody>
-          <tr class="bg-blue-500 border-b border-blue-400">
-              <th scope="row" class="px-6 py-4 font-medium text-blue-50 whitespace-nowrap dark:text-blue-100">
-                  Apple MacBook Pro 17"
-              </th>
-              <td class="px-6 py-4">
-                  Silver
-              </td>
-              <td class="px-6 py-4">
-                  Laptop
-              </td>
-              <td class="px-6 py-4">
-                  $2999
-              </td>
-              <td class="px-6 py-4">
-                  <a href="#" class="font-medium text-white hover:underline">Edit</a>
-              </td>
-          </tr>
-          <tr class="bg-blue-500 border-b border-blue-400">
-              <th scope="row" class="px-6 py-4 font-medium text-blue-50 whitespace-nowrap dark:text-blue-100">
-                  Microsoft Surface Pro
-              </th>
-              <td class="px-6 py-4">
-                  White
-              </td>
-              <td class="px-6 py-4">
-                  Laptop PC
-              </td>
-              <td class="px-6 py-4">
-                  $1999
-              </td>
-              <td class="px-6 py-4">
-                  <a href="#" class="font-medium text-white hover:underline">Edit</a>
-              </td>
-          </tr>
-          <tr class="bg-blue-500 border-b border-blue-400">
-              <th scope="row" class="px-6 py-4 font-medium text-blue-50 whitespace-nowrap dark:text-blue-100">
-                  Magic Mouse 2
-              </th>
-              <td class="px-6 py-4">
-                  Black
-              </td>
-              <td class="px-6 py-4">
-                  Accessories
-              </td>
-              <td class="px-6 py-4">
-                  $99
-              </td>
-              <td class="px-6 py-4">
-                  <a href="#" class="font-medium text-white hover:underline">Edit</a>
-              </td>
-          </tr>
-          <tr class="bg-blue-500 border-b border-blue-400">
-              <th scope="row" class="px-6 py-4 font-medium text-blue-50 whitespace-nowrap dark:text-blue-100">
-                  Google Pixel Phone
-              </th>
-              <td class="px-6 py-4">
-                  Gray
-              </td>
-              <td class="px-6 py-4">
-                  Phone
-              </td>
-              <td class="px-6 py-4">
-                  $799
-              </td>
-              <td class="px-6 py-4">
-                  <a href="#" class="font-medium text-white hover:underline">Edit</a>
-              </td>
-          </tr>
-          <tr class="bg-blue-500 border-blue-40">
-              <th scope="row" class="px-6 py-4 font-medium text-blue-50 whitespace-nowrap dark:text-blue-100">
-                  Apple Watch 5
-              </th>
-              <td class="px-6 py-4">
-                  Red
-              </td>
-              <td class="px-6 py-4">
-                  Wearables
-              </td>
-              <td class="px-6 py-4">
-                  $999
-              </td>
-              <td class="px-6 py-4">
-                  <a href="#" class="font-medium text-white hover:underline">Edit</a>
-              </td>
-          </tr>
-      </tbody>
+<div class="border rounded-lg border-[#DBDFE2] text-[#64748B] overflow-auto">
+  <table class="w-full">
+    <thead class="p-2">
+      <tr class="text-[12px] border-b border-[#DBDFE2]">
+        <th class="p-2">Id</th>
+        <th class="p-2">Description</th>
+        <th class="p-2">Status</th>
+        <th class="p-2">Type</th>
+        <th class="p-2">Priority</th>
+        <th class="p-2">Due Date</th>
+        <th class="p-2">Go To</th>
+      </tr>
+    </thead>
+    <tbody class="text-[12px]">
+      <tr class="bg-white hover:bg-gray-200">
+        <td class="p-2">113</td>
+        <td class=""></td>
+        <td class="">
+          <a href="#" class="text-blue-500">Pending</a>
+        </td>
+        <td class="">Billing</td>
+        <td class="">Normal</td>
+        <td class="">03/31/2025</td>
+        <td class="">
+          <a href="#" class="text-blue-500">Application #32345</a>
+        </td>
+      </tr>
+      <tr class="bg-gray-100 hover:bg-gray-200">
+        <td class="p-2">114</td>
+        <td class=""></td>
+        <td class="">
+          <a href="#" class="text-blue-500">Pending</a>
+        </td>
+        <td class="">Billing</td>
+        <td class="">Normal</td>
+        <td class="">03/31/2025</td>
+        <td class="">
+          <a href="#" class="text-blue-500">Application #32345</a>
+        </td>
+      </tr>
+    </tbody>
   </table>
+  <div class="flex w-full justify-between items-center p-2 text-[12px]">
+    <div class="flex items-center gap-4">
+      <span class="text-gray-700 w-fit text-nowrap">Items per page:</span>
+      <select class="border border-gray-300 rounded p-1 w-16">
+        <option>10</option>
+        <option>20</option>
+        <option>50</option>
+      </select>
+      <span class="text-gray-700 text-nowrap">10 of 100</span>
+      <div class="flex gap-2">
+        <button type="button" class=" font-medium rounded-full text-sm text-center inline-flex items-center">
+          <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M18.7077 18.7917C18.8007 18.8847 18.8744 18.9951 18.9248 19.1165C18.9751 19.238 19.001 19.3682 19.001 19.4997C19.001 19.6312 18.9751 19.7614 18.9248 19.8829C18.8744 20.0044 18.8007 20.1147 18.7077 20.2077C18.6147 20.3007 18.5044 20.3744 18.3829 20.4248C18.2614 20.4751 18.1312 20.501 17.9997 20.501C17.8682 20.501 17.738 20.4751 17.6165 20.4248C17.4951 20.3744 17.3847 20.3007 17.2917 20.2077L10.2917 13.2077C10.1986 13.1148 10.1247 13.0045 10.0743 12.883C10.0239 12.7615 9.99793 12.6312 9.99793 12.4997C9.99793 12.3682 10.0239 12.2379 10.0743 12.1164C10.1247 11.995 10.1986 11.8846 10.2917 11.7917L17.2917 4.79171C17.3847 4.69874 17.4951 4.62498 17.6165 4.57467C17.738 4.52435 17.8682 4.49845 17.9997 4.49845C18.1312 4.49845 18.2614 4.52435 18.3829 4.57467C18.5044 4.62498 18.6147 4.69874 18.7077 4.79171C18.8007 4.88469 18.8744 4.99507 18.9248 5.11655C18.9751 5.23803 19.001 5.36823 19.001 5.49971C19.001 5.6312 18.9751 5.7614 18.9248 5.88288C18.8744 6.00436 18.8007 6.11474 18.7077 6.20771L12.4137 12.4997L18.7077 18.7917ZM3.99971 19.4997C3.99971 19.7649 4.10507 20.0193 4.29261 20.2068C4.48014 20.3944 4.7345 20.4997 4.99971 20.4997C5.26493 20.4997 5.51929 20.3944 5.70682 20.2068C5.89436 20.0193 5.99971 19.7649 5.99971 19.4997L5.99972 5.49971C5.99972 5.2345 5.89436 4.98014 5.70682 4.79261C5.51929 4.60507 5.26493 4.49971 4.99972 4.49971C4.7345 4.49971 4.48014 4.60507 4.29261 4.79261C4.10507 4.98014 3.99972 5.2345 3.99972 5.49971L3.99971 19.4997Z"
+              fill="currentColor" />
+          </svg>
+        </button>
+        <button type="button" class=" font-medium rounded-full text-sm text-center inline-flex items-center">
+          <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M15.375 19.25L8.625 12.5L15.375 5.75" stroke="#727B87" stroke-width="2.5" stroke-linecap="round"
+              stroke-linejoin="round" />
+          </svg>
+        </button>
+        <button type="button" class=" font-medium rounded-full text-sm text-center inline-flex items-center">
+          <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M8.625 5.75L15.375 12.5L8.625 19.25" stroke="#727B87" stroke-width="2.5" stroke-linecap="round"
+              stroke-linejoin="round" />
+          </svg>
+        </button>
+        <button type="button" class=" font-medium rounded-full text-sm text-center inline-flex items-center">
+          <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M5.29229 6.20829C5.19931 6.11531 5.12556 6.00493 5.07524 5.88345C5.02492 5.76197 4.99902 5.63177 4.99902 5.50029C4.99902 5.3688 5.02492 5.2386 5.07524 5.11712C5.12556 4.99564 5.19931 4.88526 5.29229 4.79229C5.38526 4.69931 5.49564 4.62556 5.61712 4.57524C5.7386 4.52492 5.8688 4.49902 6.00029 4.49902C6.13177 4.49902 6.26197 4.52492 6.38345 4.57524C6.50493 4.62556 6.61531 4.69931 6.70829 4.79229L13.7083 11.7923C13.8014 11.8852 13.8753 11.9955 13.9257 12.117C13.9761 12.2385 14.0021 12.3688 14.0021 12.5003C14.0021 12.6318 13.9761 12.7621 13.9257 12.8836C13.8753 13.005 13.8014 13.1154 13.7083 13.2083L6.70829 20.2083C6.61531 20.3013 6.50493 20.375 6.38345 20.4253C6.26197 20.4757 6.13177 20.5015 6.00029 20.5015C5.8688 20.5015 5.7386 20.4757 5.61712 20.4253C5.49564 20.375 5.38526 20.3013 5.29229 20.2083C5.19931 20.1153 5.12556 20.0049 5.07524 19.8835C5.02492 19.762 4.99902 19.6318 4.99902 19.5003C4.99902 19.3688 5.02492 19.2386 5.07524 19.1171C5.12556 18.9956 5.19931 18.8853 5.29229 18.7923L11.5863 12.5003L5.29229 6.20829ZM20.0003 5.50029C20.0003 5.23507 19.8949 4.98072 19.7074 4.79318C19.5199 4.60564 19.2655 4.50029 19.0003 4.50029C18.7351 4.50029 18.4807 4.60564 18.2932 4.79318C18.1056 4.98072 18.0003 5.23507 18.0003 5.50029V19.5003C18.0003 19.7655 18.1056 20.0199 18.2932 20.2074C18.4807 20.3949 18.7351 20.5003 19.0003 20.5003C19.2655 20.5003 19.5199 20.3949 19.7074 20.2074C19.8949 20.0199 20.0003 19.7655 20.0003 19.5003V5.50029Z"
+              fill="currentColor" />
+          </svg>
+        </button>
+      </div>
+    </div>
+
+  </div>
 </div>
