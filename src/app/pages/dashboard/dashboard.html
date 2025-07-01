@@ -19,7 +19,19 @@
       </div>
       <div class="flex items-center">
         <div class="flex items-center ms-3">
-          <div>
+          <div class="flex gap-6">
+            <button type="button" class=" font-medium rounded-full text-sm text-center inline-flex items-center">
+              <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M8.625 5.75L15.375 12.5L8.625 19.25" stroke="#727B87" stroke-width="2.5" stroke-linecap="round"
+                  stroke-linejoin="round" />
+              </svg>
+            </button>
+            <button type="button" class=" font-medium rounded-full text-sm text-center inline-flex items-center">
+              <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M8.625 5.75L15.375 12.5L8.625 19.25" stroke="#727B87" stroke-width="2.5" stroke-linecap="round"
+                  stroke-linejoin="round" />
+              </svg>
+            </button>
             <button type="button"
               class="flex text-sm bg-gray-800 rounded-full focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600"
               aria-expanded="false" data-dropdown-toggle="dropdown-user">
@@ -68,7 +80,7 @@
 </nav>
 
 <aside
-  class="fixed top-0 left-0 z-40 w-64 h-screen pt-20 transition-transform -translate-x-full bg-[url('./assets/side.png')] bg-contain bg-top sm:translate-x-0 dark:bg-gray-800 dark:border-gray-700">
+  class="fixed top-0 left-0 z-40 w-64 h-screen pt-20 transition-transform -translate-x-full bg-[url('./assets/side.png')] bg-no-repeat bg-center bg-size-[100%_100%] sm:translate-x-0 dark:bg-gray-800 dark:border-gray-700">
   <div class="h-full px-3 pb-4 overflow-y-auto ">
     <ul class="space-y-2 font-base text-white">
       <li>
@@ -442,7 +454,7 @@
       <div class="flex flex-col md:flex-row gap-4">
         <div class="md:w-1/2 flex flex-col gap-4">
           <app-action-assigned />
-          <app-application-statuses/>
+          <app-application-statuses />
         </div>
         <div class="md:w-1/2 flex flex-col gap-4">
           <div class="relative shadow rounded-lg">
