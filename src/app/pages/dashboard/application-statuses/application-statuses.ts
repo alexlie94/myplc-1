@@ -53,8 +53,8 @@ export class ApplicationStatuses {
         '#EF4444',
       ],
       chart: {
-        height: 223,
-        width: '100%',
+        height: '100%',
+        width: '85%',
         type: 'donut',
       },
       stroke: {
@@ -107,6 +107,15 @@ export class ApplicationStatuses {
       },
       legend: {
         position: 'right',
+        horizontalAlign: 'center',
+        itemMargin: {
+          horizontal: 10,
+          vertical: 5,
+        },
+        markers: {
+          width: 12,
+          height: 12,
+        },
         fontFamily: 'Inter, sans-serif',
       },
       yaxis: {

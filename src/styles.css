@@ -14,3 +14,12 @@
   --color-sty-toggle:#E4EFFF;
   --color-tTable:#323232;
 }
+
+.apexcharts-legend {
+  display: flex !important;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 500px;
+  column-gap:10px;
+  margin: 0 auto;
+}
